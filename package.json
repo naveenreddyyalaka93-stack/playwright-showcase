@@ -1,0 +1,25 @@
+{
+  "name": "playwrightbasicauto",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "show-report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/identity": "^4.12.0",
+    "@azure/playwright": "^1.0.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  },
+  "dependencies": {
+    "@azure/microsoft-playwright-testing": "^1.0.0-beta.9",
+    "dotenv": "^17.2.2"
+  }
+}
