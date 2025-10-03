@@ -1,33 +1,26 @@
 
-Running 25 tests using 4 workers
+Running 12 tests using 4 workers
 
-Selected Date: 0 /  / 
-  ✓   3 [Google Chrome] › tests\Calender.spec.js:3:1 › Calender validation on greenkart page (12.2s)
-ZARA COAT 3
-[ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
 {
-  token: [32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTA0MTY5LCJleHAiOjE3OTEwNjE3Njl9.Y45MmMKlpqw4H6Xn7qv-Tfr0tXMD8q2LF7YWqaoNfEk'[39m,
+  token: [32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTExNTI5LCJleHAiOjE3OTEwNjkxMjl9.rxH2O_lBXnnqQC5MhUGuSu79s5vBtuloOggmQBwwn8o'[39m,
   userId: [32m'68b9165df669d6cb0ab2100a'[39m,
   message: [32m'Login Successfully'[39m
 }
-Login token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTA0MTY5LCJleHAiOjE3OTEwNjE3Njl9.Y45MmMKlpqw4H6Xn7qv-Tfr0tXMD8q2LF7YWqaoNfEk
-order id through api: 68dfe729f669d6cb0afabc7b
+Login token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTExNTI5LCJleHAiOjE3OTEwNjkxMjl9.rxH2O_lBXnnqQC5MhUGuSu79s5vBtuloOggmQBwwn8o
+order id through api: 68e003e9f669d6cb0afafcec
 ZARA COAT 3
 [ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
-Join 13,522 Happy Subscibers!
-13,522
-Raw:  | 68dfe73cf669d6cb0afabcb9 | 
-Cleaned Order Id: 68dfe73cf669d6cb0afabcb9
- You have No Orders to show at this time. Please Visit Back Us 
-  ✓   1 [Google Chrome] › tests\moreval.spec.js:6:1 › Popup validations (34.6s)
-  ✓   5 [Google Chrome] › tests\NetworkTest.spec.js:15:1 › route.fulfill - Client App login through api (18.8s)
-  ✓   4 [Google Chrome] › tests\ClientAppPO.spec.js:7:5 › Login, checkout, and verify order for ADIDAS ORIGINAL (36.9s)
 You are not authorize to view this order
-  ✓   7 [Google Chrome] › tests\NetworkTest1.spec.js:3:1 › Security test request intercept (9.6s)
-iphone X
-iphone X
-Samsung Note 8
-  ✓   8 [Google Chrome] › tests\NetworkTest1.spec.js:21:1 › abort test login practice page without css (13.7s)
+ZARA COAT 3
+[ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
+ You have No Orders to show at this time. Please Visit Back Us 
+Raw:  | 68e003f7f669d6cb0afafd2c | 
+Cleaned Order Id: 68e003f7f669d6cb0afafd2c
+  ✓   3 [Google Chrome] › tests\NetworkTest.spec.js:15:1 › route.fulfill - Client App login through api (11.9s)
+  ✓   4 [Google Chrome] › tests\NetworkTest1.spec.js:3:1 › Security test request intercept (15.5s)
+  ✓   1 [Google Chrome] › tests\ClientAppPO.spec.js:7:5 › Login, checkout, and verify order for iphone 13 pro (16.3s)
+Raw:  | 68e003fbf669d6cb0afafd47 | 
+Cleaned Order Id: 68e003fbf669d6cb0afafd47
 https://rahulshettyacademy.com/loginpagePractise/
 https://rahulshettyacademy.com/loginpagePractise/ [33m200[39m
 https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
@@ -36,9 +29,7 @@ https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js
 https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css [33m200[39m
 https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js [33m200[39m
 https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js [33m200[39m
-iphone X
-product name: iphone X
-  ✓   9 [Google Chrome] › tests\NetworkTest1.spec.js:46:1 › abort test login practice page without images (11.6s)
+  ✓   2 [Google Chrome] › tests\ClientAppPO.spec.js:7:5 › Login, checkout, and verify order for ADIDAS ORIGINAL (19.9s)
 https://rahulshettyacademy.com/angularpractice/shop
 https://rahulshettyacademy.com/angularpractice/shop [33m200[39m
 https://rahulshettyacademy.com/angularpractice/styles.3476315b83ee14da2595.bundle.css
@@ -51,6 +42,8 @@ https://rahulshettyacademy.com/angularpractice/inline.318b50c57b4eba3d437b.bundl
 https://rahulshettyacademy.com/angularpractice/polyfills.b6b2cd0d4c472ac3ac12.bundle.js [33m200[39m
 https://rahulshettyacademy.com/angularpractice/scripts.6cc4e781f0791d60b349.bundle.js [33m200[39m
 https://rahulshettyacademy.com/angularpractice/main.f104fca0d24a938832a3.bundle.js [33m200[39m
+iphone X
+product name: iphone X
 https://placehold.co/900x350
 https://rahulshettyacademy.com/angularpractice/assets/img/iphonex.jpg
 https://rahulshettyacademy.com/angularpractice/assets/img/samsung.jpg
@@ -62,103 +55,105 @@ https://rahulshettyacademy.com/angularpractice/assets/img/iphonex.jpg [33m200[
 https://rahulshettyacademy.com/angularpractice/assets/img/nokia.jpg [33m200[39m
 https://rahulshettyacademy.com/angularpractice/assets/img/blackberry.jpg [33m200[39m
 https://rahulshettyacademy.com/angularpractice/Material-Design-Iconic-Font.a4d31128b633bc0b1cc1.woff2?v=2.2.0 [33m200[39m
-https://placehold.co/900x350 [33m200[39m
 iphone X
+https://placehold.co/900x350 [33m200[39m
 product name: iphone X
-  ✓   6 [Google Chrome] › tests\moreval.spec.js:32:1 › Screenshot & visual comparison (28.5s)
-  ✓  10 [Google Chrome] › tests\NetworkTest1.spec.js:71:1 › abort test login practice page without request and response calls (12.4s)
-ZARA COAT 3
-[ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
-ZARA COAT 3
-[ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
-  ✓  11 [Google Chrome] › tests\Orderhistory.spec.js:3:1 › Login page and checkout and orderid validation (12.2s)
-  ✓  12 [Google Chrome] › tests\moreval.spec.js:46:1 › visula testing comparing screenshot (7.9s)
-  ✓  14 [Google Chrome] › tests\UIBasicstest.spec.js:3:1 › First Playwright test (3.0s)
-Raw:  | 68dfe763f669d6cb0afabd0f | 
-Cleaned Order Id: 68dfe763f669d6cb0afabd0f
-  ✓  13 [Google Chrome] › tests\refactorcart.spec.js:3:1 › Login page and checkout and orderid validation (11.4s)
-Google
-https://www.google.com/?zx=1759504230840&no_sw_cr=1
-  ✓  15 [Google Chrome] › tests\UIBasicstest.spec.js:10:1 › First Playwright second (5.4s)
-Incorrect username/password.
-  ✓  16 [Google Chrome] › tests\UIBasicstest.spec.js:23:1 › test login practice page grab error text (6.4s)
-  ✓  18 [Google Chrome] › tests\UIBasicstest.spec.js:59:1 › rahulshettyacademy.com registration page (6.7s)
-  ✘   2 [Google Chrome] › tests\ClientAppPO.spec.js:7:5 › Login, checkout, and verify order for iphone 13 pro (1.0m)
 iphone X
 iphone X
 Samsung Note 8
-  ✓  17 [Google Chrome] › tests\UIBasicstest.spec.js:36:1 › test login practice page (11.4s)
-Please email us at mentor@rahulshettyacademy.com with below template to receive response 
-[
-  [32m'Please email us at mentor'[39m,
-  [32m'rahulshettyacademy.com with below template to receive response '[39m
-]
-rahulshettyacademy.com
 ZARA COAT 3
 [ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
-  ✓  19 [Google Chrome] › tests\UIBasicstest.spec.js:79:1 › Login page and checkout and orderid validation (12.0s)
+  ✓   7 [Google Chrome] › tests\NetworkTest1.spec.js:71:1 › abort test login practice page without request and response calls (14.8s)
+  ✓   5 [Google Chrome] › tests\NetworkTest1.spec.js:46:1 › abort test login practice page without images (15.9s)
+  ✓   6 [Google Chrome] › tests\NetworkTest1.spec.js:21:1 › abort test login practice page without css (16.5s)
 {
-  token: [32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTA0MjQ3LCJleHAiOjE3OTEwNjE4NDd9.5p8xlNqOEdLm0wjFrbaOAMe9tqN7Ef5uz7jdCB5FOXc'[39m,
+  token: [32m'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTExNTYyLCJleHAiOjE3OTEwNjkxNjJ9.HZGJbBDST5ywoivZbifJ41Cx6IdmBO9ufVenOtacw-Y'[39m,
   userId: [32m'68b9165df669d6cb0ab2100a'[39m,
   message: [32m'Login Successfully'[39m
 }
-Login token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTA0MjQ3LCJleHAiOjE3OTEwNjE4NDd9.5p8xlNqOEdLm0wjFrbaOAMe9tqN7Ef5uz7jdCB5FOXc
-order id through api: 68dfe777f669d6cb0afabd2f
-rahulshettyacademy.com
-  ✓  20 [Google Chrome] › tests\UIBasicstest.spec.js:92:1 › test login practice page blinking text (8.6s)
-OrderId details on history page: 68dfe777f669d6cb0afabd2f
-  ✓  22 [Google Chrome] › tests\WebAPIPart1.spec.js:17:1 › Client App login through api (3.8s)
-  ✓  25 [Google Chrome] › tests\UIBasicstest.spec.js:115:1 › playwright special locators (8.4s)
+Login token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGI5MTY1ZGY2NjlkNmNiMGFiMjEwMGEiLCJ1c2VyRW1haWwiOiJuYXZlZW5yZWRkeTA5OEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5MjAyMDAyMDI5LCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5NTExNTYyLCJleHAiOjE3OTEwNjkxNjJ9.HZGJbBDST5ywoivZbifJ41Cx6IdmBO9ufVenOtacw-Y
+order id through api: 68e0040af669d6cb0afafd70
 ZARA COAT 3
 [ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
+OrderId details on history page: 68e0040af669d6cb0afafd70
+  ✓  10 [Google Chrome] › tests\WebAPIPart1.spec.js:17:1 › Client App login through api (8.0s)
 ZARA COAT 3
 [ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
-  ✓  24 [Google Chrome] › tests\WebAPIPart2.spec.js:56:1 › Login page and checkout and orderid validation2 (2.3s)
-Raw:  | 68dfe78ef669d6cb0afabd6f | 
-Cleaned Order Id: 68dfe78ef669d6cb0afabd6f
-  ✓  23 [Google Chrome] › tests\WebAPIPart2.spec.js:19:1 › Login page and checkout and orderid validation1 (6.9s)
-  ✓  21 [Google Chrome] › tests\UIBasicstest.spec.js:136:1 › youtube special locators (38.2s)
+Raw:  | 68e0041df669d6cb0afafdec | 
+Cleaned Order Id: 68e0041df669d6cb0afafdec
+ZARA COAT 3
+[ [32m'ZARA COAT 3'[39m, [32m'ADIDAS ORIGINAL'[39m, [32m'iphone 13 pro'[39m ]
+  ✓  12 [Google Chrome] › tests\WebAPIPart2.spec.js:56:1 › Login page and checkout and orderid validation2 (3.4s)
+  ✓  11 [Google Chrome] › tests\WebAPIPart2.spec.js:19:1 › Login page and checkout and orderid validation1 (9.1s)
+  ✘   8 [Google Chrome] › tests\Orderhistory.spec.js:3:1 › Login page and checkout and orderid validation (42.1s)
+  ✘   9 [Google Chrome] › tests\refactorcart.spec.js:3:1 › Login page and checkout and orderid validation (41.7s)
 
 
-  1) [Google Chrome] › tests\ClientAppPO.spec.js:7:5 › Login, checkout, and verify order for iphone 13 pro 
+  1) [Google Chrome] › tests\Orderhistory.spec.js:3:1 › Login page and checkout and orderid validation 
 
     [31mTest timeout of 40000ms exceeded.[39m
 
-    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
-
-    Locator:  getByText('iphone 13 pro')
-    Expected: visible
-    Received: <element(s) not found>
-    Timeout:  40000ms
-
+    Error: locator.waitFor: Test timeout of 40000ms exceeded.
     Call log:
-    [2m  - Expect "toBeVisible" with timeout 40000ms[22m
-    [2m  - waiting for getByText('iphone 13 pro')[22m
+    [2m  - waiting for locator('div li').first() to be visible[22m
 
 
-      18 |
-      19 |         const checkoutPage = poManager.getCheckoutPage();
-    > 20 |         await expect(page.getByText(data.productName)).toBeVisible();
-         |                                                        ^
-      21 |         await checkoutPage.clickOnCheckout();
-      22 |
-      23 |         const placeOrderPage = poManager.getPlaceOrderPage();
-        at C:\playwrightbasicauto\tests\ClientAppPO.spec.js:20:56
+      25 |
+      26 |     await page.locator("[routerlink*='cart']").click();
+    > 27 |     await page.locator("div li").first().waitFor();
+         |                                          ^
+      28 |     //await expect(page.locator("h3")).toHaveText("ADIDAS ORIGINAL");
+      29 |     const bool = await page.locator("h3:has-text('ADIDAS ORIGINAL')").isVisible();
+      30 |     expect(bool).toBeTruthy();
+        at C:\traceable-playwright\tests\Orderhistory.spec.js:27:42
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results\ClientAppPO-Login-checkout-a581b-ify-order-for-iphone-13-pro-Google-Chrome\test-failed-1.png
+    test-results\Orderhistory-Login-page-and-checkout-and-orderid-validation-Google-Chrome\test-failed-1.png
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    Error Context: test-results\ClientAppPO-Login-checkout-a581b-ify-order-for-iphone-13-pro-Google-Chrome\error-context.md
+    Error Context: test-results\Orderhistory-Login-page-and-checkout-and-orderid-validation-Google-Chrome\error-context.md
 
     attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
-    test-results\ClientAppPO-Login-checkout-a581b-ify-order-for-iphone-13-pro-Google-Chrome\trace.zip
+    test-results\Orderhistory-Login-page-and-checkout-and-orderid-validation-Google-Chrome\trace.zip
     Usage:
 
-        npx playwright show-trace test-results\ClientAppPO-Login-checkout-a581b-ify-order-for-iphone-13-pro-Google-Chrome\trace.zip
+        npx playwright show-trace test-results\Orderhistory-Login-page-and-checkout-and-orderid-validation-Google-Chrome\trace.zip
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-  1 failed
-    [Google Chrome] › tests\ClientAppPO.spec.js:7:5 › Login, checkout, and verify order for iphone 13 pro 
-  24 passed (2.2m)
+  2) [Google Chrome] › tests\refactorcart.spec.js:3:1 › Login page and checkout and orderid validation 
+
+    [31mTest timeout of 40000ms exceeded.[39m
+
+    Error: locator.waitFor: Test timeout of 40000ms exceeded.
+    Call log:
+    [2m  - waiting for locator('div li').first() to be visible[22m
+
+
+      17 |     await page.locator(".card-body").filter({hasText:productName}).getByRole("button", {name:" Add To Cart"}).click();
+      18 |     await page.getByRole("listitem").getByRole("button", {name:"Cart"}).click();
+    > 19 |     await page.locator("div li").first().waitFor();
+         |                                          ^
+      20 |     await expect(page.getByText(productName)).toBeVisible();
+      21 |     await page.getByRole('button', { name: 'Checkout' }).click();
+      22 |     await page.getByPlaceholder("Select Country").pressSequentially("ind");
+        at C:\traceable-playwright\tests\refactorcart.spec.js:19:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\refactorcart-Login-page-and-checkout-and-orderid-validation-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\refactorcart-Login-page-and-checkout-and-orderid-validation-Google-Chrome\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\refactorcart-Login-page-and-checkout-and-orderid-validation-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\refactorcart-Login-page-and-checkout-and-orderid-validation-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [Google Chrome] › tests\Orderhistory.spec.js:3:1 › Login page and checkout and orderid validation 
+    [Google Chrome] › tests\refactorcart.spec.js:3:1 › Login page and checkout and orderid validation 
+  10 passed (1.3m)

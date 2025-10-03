@@ -29,8 +29,6 @@ test('route.fulfill - Client App login through api', async ({ page }) => {
     });
   });
 
-  await page.pause();
-
   await page.getByRole("listitem").getByRole("button", { name: "ORDERS" }).click();
   await page.waitForResponse("**/api/ecom/order/get-orders-for-customer/*");
 
