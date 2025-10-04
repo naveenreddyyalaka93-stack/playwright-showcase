@@ -1,39 +1,34 @@
-# Rationale — Traceable Playwright Showcase
 
-##  Why Playwright?
-Playwright offers robust cross-browser automation, built-in tracing, and powerful selectors — ideal for scalable, reliable testing. Its native support for modern async patterns and parallel execution aligns well with CI/CD pipelines.
+---
 
-##  Why Page Object Model (POM)?
-The Page Object Model improves maintainability and readability by encapsulating UI interactions. Each page class handles its own selectors and actions, making the test suite modular and easy to extend.
+## RATIONALE.md (1-page)
 
-##  Test Design Philosophy
-- **Data-driven testing**: Uses `test.each` to iterate over multiple product flows
-- **Layered architecture**: `POManager` centralizes page object access, reducing import clutter
-- **Traceability**: Every test run generates logs and traces for debugging and audit
-- **CI-ready**: `ci.sh` installs dependencies, runs tests, and logs results in one step
+```markdown
+# Design Rationale
 
-##  Trade-offs Considered
-- **Speed vs. Coverage**: Prioritized realistic user flows over exhaustive edge cases
-- **Mocking vs. Real Data**: Chose real data to validate full-stack behavior, accepting minor flakiness
-- **Custom selectors vs. auto-generated locators**: Used Playwright’s robust locator engine for simplicity, with fallback to custom selectors where needed
+## Why Message Queues?
+Queues (e.g., RabbitMQ, Kafka, SQS) act as a buffer to absorb unpredictable spikes.  
+They decouple incoming requests from the rate-limited API/DB, ensuring we don’t drop traffic.
 
-##  Folder Structure
+## Why Worker Services?
+Workers let us enforce **rate-limiting** for the third-party API and **connection pooling** for the DB.  
+This ensures we never exceed:
+- 1000 requests/minute (third-party API)
+- 100 DB connections
 
-traceable-playwright/
-├── ci.sh                  # One-liner test runner
-├── README.md              # Project overview and setup instructions
-├── rationale.md           # This file
-├── BUGS/                  # Bug reports and issue documentation
-│   ├── bug-report-1.md
-│   └── bug-report-2.md
-├── test-results/          # Logs, screenshots, reports
-│   ├── report.log
-│   └── playwright-report/
-├── pageobjects/           # Modular POM classes
-├── tests/                 # Playwright test specs
-├── utils/                 # Test data and helpers
-├── env/                   # Environment config files
-├── .gitignore             # Ignore node_modules, reports, etc.
-├── package.json           # Project dependencies and scripts
-├── package-lock.json      # Dependency lock file
-└── playwright.config.ts   # Playwright configuration
+## Why Autoscaling?
+API servers and workers can be autoscaled independently:
+- API servers scale on request rate.
+- Workers scale on queue depth.
+
+This means we handle bursts without overloading downstream systems.
+
+## Trade-offs
+- **Increased latency**: Requests may wait in queue during spikes.
+- **Operational overhead**: More infra components (queues, workers, monitoring).
+- **Cost**: Autoscaling and queue storage add cloud costs.
+
+## Why This Design is Resilient
+- **No dropped requests** – queues absorb bursts.
+- **Respects external limits** – controlled worker rate-limiting.
+- **Fault tolerance** – retries and monitoring prevent cascading failures.
